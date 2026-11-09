@@ -10,8 +10,6 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Copy `.env.example` to `.env` and set `OPENROUTER_API_KEY`. The same key used in Capstone 1 and Capstone 2 works here.
-
 Long-term memory uses Upstash Redis when both of these are set:
 
 ```text
